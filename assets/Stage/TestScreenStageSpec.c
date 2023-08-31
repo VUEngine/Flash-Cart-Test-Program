@@ -41,8 +41,8 @@ PositionedEntityROMSpec TestScreenStageSpecEntities[] =
 
 PositionedEntityROMSpec TestScreenStageSpecUiEntities[] =
 {
-	{&FlashBoyPlusLogoEntitySpec,	{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	//{&HyperBoyLogoEntitySpec,		{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&FlashBoyPlusLogoEntitySpec,	{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&HyperBoyLogoEntitySpec,		{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	//{&HyperBoyPlusLogoEntitySpec,	{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	//{&HyperFlash32LogoEntitySpec,	{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&LowPowerIndicatorEntitySpec, 	{ 160,  103,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
@@ -153,8 +153,8 @@ StageROMSpec TestScreenStageSpec =
 		// colors config
 		{
 			// background color
-			__COLOR_DARK_RED,
-			//__COLOR_BLACK,
+			//__COLOR_DARK_RED,
+			__COLOR_BLACK,
 
 			// brightness
 			// these values times the repeat values specified in the column table (max. 16) make the final
