@@ -34,9 +34,9 @@ extern EntitySpec AdjustmentIconREntity;
 
 PositionedEntityROMSpec TestScreenStageSpecEntities[] =
 {
-	{&FlashBoyPlusLogoEntity,		{192,  96,  0,  0}, 0, NULL, NULL, NULL, false},
+	//{&FlashBoyPlusLogoEntity,		{192,  96,  0,  0}, 0, NULL, NULL, NULL, false},
 	//{&HyperBoyLogoEntity,			{192,  96,  0,  0}, 0, NULL, NULL, NULL, false},
-	//{&HyperFlash32LogoEntity,		{192,  96,  0,  0}, 0, NULL, NULL, NULL, false},
+	{&HyperFlash32LogoEntity,		{192,  96,  0,  0}, 0, NULL, NULL, NULL, false},
 	{&AdjustmentIconLEntity, 		{  8,   8,  0, 0}, 0, NULL, NULL, NULL, false},
 	{&AdjustmentIconREntity, 		{  8, 216,  0, 0}, 0, NULL, NULL, NULL, false},
 	{&AdjustmentIconLEntity, 		{376, 216,  0, 0}, 0, NULL, NULL, NULL, false},
@@ -149,8 +149,8 @@ StageROMSpec TestScreenStageSpec =
 		// colors config
 		{
 			// background color
-			__COLOR_DARK_RED,
-			//__COLOR_BLACK,
+			//__COLOR_DARK_RED,
+			__COLOR_BLACK,
 
 			// brightness
 			// these values times the repeat values specified in the column table (max. 16) make the final
