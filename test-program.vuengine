@@ -4,7 +4,9 @@
             "path": "."
         }
     ],
-    "plugins": [],
+    "plugins": [
+        "vuengine//entities/LowPowerEntity"
+    ],
     "items": {
         "Project": {
             "bVQcaaY9tNRsHiTU": {

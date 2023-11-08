@@ -55,7 +55,7 @@ void TestScreenState::enter(void* owner)
 	TestScreenState::startClocks(this);
 	Printing::setCoordinates(Printing::getInstance(), 0, 0, 0, 0);
 
-	VUEngine::disableKeypad(VUEngine::getInstance());
+	VUEngine::enableKeypad(VUEngine::getInstance());
 
 	TestScreenState::startTest(this);
 

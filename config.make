@@ -3,7 +3,7 @@
 ###########################################################################################################
 
 # VUEngine based plugins that the project uses
-PLUGINS 						= 
+PLUGINS 						= vuengine//entities/LowPowerEntity
 
 # Compiler's output
 COMPILER_OUTPUT					= c
