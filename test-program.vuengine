@@ -227,8 +227,7 @@
                 },
                 "optimization": "O2",
                 "output": "c",
-                "prologFunctions": false,
-                "scrambleBinary": false
+                "prologFunctions": false
             }
         }
     }
