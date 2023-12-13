@@ -79,8 +79,8 @@
 #ifdef __TOOLS
 
 // tools
-#ifndef __DEBUG_TOOLS
-#define __DEBUG_TOOLS
+#ifndef __DEBUG_TOOL
+#define __DEBUG_TOOL
 #endif
 
 #ifndef __STAGE_EDITOR
@@ -95,32 +95,6 @@
 #define __SOUND_TEST
 #endif
 
-#endif
-
-// Enable different settings for each tool
-#ifdef __DEBUG_TOOLS
-#ifndef __TOOLS
-#define __TOOLS
-#endif
-
-#endif
-
-#ifdef __STAGE_EDITOR
-#ifndef __TOOLS
-#define __TOOLS
-#endif
-#endif
-
-#ifdef __ANIMATION_INSPECTOR
-#ifndef __TOOLS
-#define __TOOLS
-#endif
-#endif
-
-#ifdef __SOUND_TEST
-#ifndef __TOOLS
-#define __TOOLS
-#endif
 #endif
 
 
@@ -140,7 +114,7 @@
 //---------------------------------------------------------------------------------------------------------
 
 // legacy coordinate system (0, 0, 0) is at the top left corner of the screen
-#define __LEGACY_COORDINATE_PROJECTION
+#undef __LEGACY_COORDINATE_PROJECTION
 
 // screen width in pixels
 #define __SCREEN_WIDTH												384

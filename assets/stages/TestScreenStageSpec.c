@@ -35,20 +35,20 @@ extern EntitySpec AdjustmentIconREntity;
 
 PositionedEntityROMSpec TestScreenStageSpecEntities[] =
 {
-	{&FlashBoyPlusLogoEntity,		{192,  96,  0,  0}, 0, NULL, NULL, NULL, false},
-	//{&HyperBoyLogoEntity,			{192,  96,  0,  0}, 0, NULL, NULL, NULL, false},
-	//{&HyperFlash32LogoEntity,		{192,  96,  0,  0}, 0, NULL, NULL, NULL, false},
-	{&LowPowerIndicatorEntity, 		{352, 215,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconLEntity, 		{  8,   8,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconREntity, 		{  8, 216,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconLEntity, 		{376, 216,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconREntity, 		{376,   8,  0, 0}, 0, NULL, NULL, NULL, false},
-
 	{NULL, {0,0,0,0}, 0, NULL, NULL, NULL, false},
 };
 
 PositionedEntityROMSpec TestScreenStageSpecUiEntities[] =
 {
+	{&FlashBoyPlusLogoEntity,		{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
+	//{&HyperBoyLogoEntity,			{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
+	//{&HyperFlash32LogoEntity,		{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&LowPowerIndicatorEntity, 		{ 160,  103,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconLEntity, 		{-184, -104,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconREntity, 		{-184,  104,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconLEntity, 		{ 184,  104,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconREntity, 		{ 184, -104,  0, 0}, 0, NULL, NULL, NULL, false},
+
 	{NULL, {0,0,0,0}, 0, NULL, NULL, NULL, false},
 };
 
