@@ -1,0 +1,26 @@
+{
+    "_id": "Yic29hML9oy4AEov",
+    "animation": {
+        "frames": 0,
+        "individualFiles": false,
+        "isAnimation": false
+    },
+    "files": [
+        "assets/Image/FlashBoyPlus/FlashBoyPlusLogoBackground.png",
+        "assets/Image/FlashBoyPlus/FlashBoyPlusLogoForeground.png"
+    ],
+    "map": {
+        "compression": "none",
+        "generate": true,
+        "reduce": {
+            "flipped": true,
+            "unique": true
+        }
+    },
+    "name": "FlashBoy Plus Logo",
+    "section": "rom",
+    "tileset": {
+        "compression": "none",
+        "shared": true
+    }
+}
