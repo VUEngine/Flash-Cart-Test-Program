@@ -270,5 +270,5 @@ EntityROMSpec HyperFlash32LogoEntity =
 	kTypeNone,
 
 	// physical specification
-	(PhysicalSpecification*)NULL,
+	(PhysicalProperties*)NULL,
 };

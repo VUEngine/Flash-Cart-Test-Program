@@ -270,5 +270,5 @@ EntityROMSpec HyperBoyLogoEntity =
 	kTypeNone,
 
 	// physical specification
-	(PhysicalSpecification*)NULL,
+	(PhysicalProperties*)NULL,
 };

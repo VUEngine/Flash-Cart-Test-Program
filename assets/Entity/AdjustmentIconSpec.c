@@ -181,7 +181,7 @@ EntityROMSpec AdjustmentIconLEntity =
 	kTypeNone,
 
 	// physical specification
-	(PhysicalSpecification*)NULL,
+	(PhysicalProperties*)NULL,
 };
 
 EntityROMSpec AdjustmentIconREntity =
@@ -218,5 +218,5 @@ EntityROMSpec AdjustmentIconREntity =
 	kTypeNone,
 
 	// physical specification
-	(PhysicalSpecification*)NULL,
+	(PhysicalProperties*)NULL,
 };
