@@ -89,7 +89,7 @@ SoundChannelROM* const FailureSoundChannels[] =
 	NULL
 };
 
-SoundROM FailureSound =
+SoundROMSpec FailureSoundSpec =
 {
 	/// Name
 	"Failure",

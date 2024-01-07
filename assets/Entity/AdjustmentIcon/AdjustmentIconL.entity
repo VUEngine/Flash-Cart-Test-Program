@@ -1,0 +1,100 @@
+{
+    "_id": "4MXhKdUWZlTOTRSk",
+    "animations": {
+        "animations": [],
+        "default": 0,
+        "enabled": false,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "behaviors": {
+        "behaviors": []
+    },
+    "children": {
+        "children": []
+    },
+    "colliders": {
+        "colliders": [],
+        "inGameType": "None"
+    },
+    "extraInfo": "",
+    "name": "Adjustment Icon (L)",
+    "physics": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "pixelSize": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "sprites": {
+        "compression": "none",
+        "customClass": "",
+        "optimizedTiles": true,
+        "section": "rom",
+        "sharedTiles": true,
+        "sprites": [
+            {
+                "_imageData": {
+                    "_dupeIndex": 1,
+                    "maps": [
+                        {
+                            "data": "H4sIAAAAAAAAE4tWMgACJR0QZQihjCCUsVIsACikrCUdAAAA",
+                            "height": "2",
+                            "name": "AdjustmentIcon",
+                            "width": "2"
+                        }
+                    ],
+                    "tiles": {
+                        "count": 4,
+                        "data": "H4sIAAAAAAAAE2WNywnAMAxDd/G5t04gh2iJ0v3XqJQ/FCN4sRXpCbAmyRJXQ8uYmNh3oJBA3jJ7K7Saoc8wDNRxf1ODZKxcqFI/Z8Iv7KhwqbPj/QAOhExisQAAAA==",
+                        "height": "40",
+                        "name": "AdjustmentIconLeft",
+                        "width": "8"
+                    }
+                },
+                "bgmapMode": "Bgmap",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "LON",
+                "manipulationFunction": "",
+                "texture": {
+                    "files": [
+                        "assets/Entity/AdjustmentIcon/AdjustmentIcon.png"
+                    ],
+                    "flip": {
+                        "horizontal": false,
+                        "vertical": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false
+                },
+                "transparency": "None"
+            }
+        ],
+        "type": "Bgmap",
+        "useZDisplacementInProjection": false
+    },
+    "wireframes": {
+        "wireframes": []
+    }
+}

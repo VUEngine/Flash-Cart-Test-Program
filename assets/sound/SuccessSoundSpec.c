@@ -88,7 +88,7 @@ SoundChannelROM* const SuccessSoundChannels[] =
 	NULL
 };
 
-SoundROM SuccessSound =
+SoundROMSpec SuccessSoundSpec =
 {
 	/// Name
 	"Success",

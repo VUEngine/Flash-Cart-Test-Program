@@ -1,0 +1,100 @@
+{
+    "_id": "BvrGQdZSybwMdFOX",
+    "animations": {
+        "animations": [],
+        "default": 0,
+        "enabled": false,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "behaviors": {
+        "behaviors": []
+    },
+    "children": {
+        "children": []
+    },
+    "colliders": {
+        "colliders": [],
+        "inGameType": "None"
+    },
+    "extraInfo": "",
+    "name": "HyperBoy Logo",
+    "physics": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "pixelSize": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "sprites": {
+        "compression": "none",
+        "customClass": "",
+        "optimizedTiles": true,
+        "section": "rom",
+        "sharedTiles": true,
+        "sprites": [
+            {
+                "_imageData": {
+                    "tiles": {
+                        "count": 50,
+                        "data": "H4sIAAAAAAAAE5WV2W0EIAxEe9nvfFhyCZbcRLT9txEDxgd3VkL7tCJ4bIbJ7wf08/n5FzIzlLXFuFe++ISphPy5rAP6XmYqSxDlCxuW+jhrkI/8yoqsWDTwdC4AGmLdYxqQp3OJrXBHdBw08KQBlhpIKlGrlhCAVhpW52Iq4TPrk0wjoYUG+RHKmhAVH3rDlYY6yTZUvS2dGcwaYgnXULe+aSAV8WLaiDfTJv9eTRumTl6t2td6izj2Ru7JgmU1DXV7fgFXbDbqh52xviU0Rx1RrYEv2F4W8guGjq9YncqTaSGjXWEfX5sNjpitbLcZRILng2EssfRkyJ3N1FManQ0eEIcSt9xBnp0ae0PvrWvISfucfRvvqIjBRrc2w8MJHW89Ce6+dZ6B5Zk1f82zMAfQ2MioGxap/PqcQjgO5x7/66U8i4M6h8L9soZ7A1iGGOxDLCcBZ0znfv8AW+o5qZkIAAA=",
+                        "height": "400",
+                        "width": "8",
+                        "name": "HyperBoyLogo"
+                    },
+                    "maps": [
+                        {
+                            "data": "H4sIAAAAAAAAE72TSw6CQBBE78LaBdUjiEtAuITx/tcQ5jU/lYka46rSoYZ601DXLM9zZYdRDAnIEckHsXlyZ4GUyAmpkDNSIw3SIhekQ/oo8oR+P1bECkABKH9WRKdSznJ55zCBq4pzUAtq1cuB5VmzHPgolkuLS6v7F2Aqtl/HGnmm+DKf3GkAmju5phVrQIPafCLd4LR6HzAVu93LtJDterSeXlsciVhrYanf3WAq9qeA00LGT6Vpg98Bim6KFmtuse+6e3JuAUWLAy3W1GLjfwk4gyeAG1ssehtocZhb/Bh7uwNLgsJOaAQAAA==",
+                            "height": "7",
+                            "width": "23",
+                            "name": "HyperBoyLogo"
+                        }
+                    ],
+                    "_dupeIndex": 1
+                },
+                "bgmapMode": "Bgmap",
+                "displayMode": "ON",
+                "transparency": "None",
+                "displacement": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "parallax": 0
+                },
+                "manipulationFunction": "",
+                "texture": {
+                    "files": [
+                        "assets/Entity/HyperBoyLogo/HyperBoyLogo.png"
+                    ],
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "flip": {
+                        "horizontal": false,
+                        "vertical": false
+                    }
+                }
+            }
+        ],
+        "type": "Bgmap",
+        "useZDisplacementInProjection": false
+    },
+    "wireframes": {
+        "wireframes": []
+    }
+}

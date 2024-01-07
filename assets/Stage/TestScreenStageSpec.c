@@ -21,12 +21,12 @@
 //											DECLARATIONS
 //---------------------------------------------------------------------------------------------------------
 
-extern EntitySpec FlashBoyPlusLogoEntity;
-extern EntitySpec HyperBoyLogoEntity;
-extern EntitySpec HyperFlash32LogoEntity;
-extern EntitySpec LowPowerIndicatorEntity;
-extern EntitySpec AdjustmentIconLEntity;
-extern EntitySpec AdjustmentIconREntity;
+extern EntitySpec AdjustmentIconLEntitySpec;
+extern EntitySpec AdjustmentIconREntitySpec;
+extern EntitySpec FlashBoyPlusLogoEntitySpec;
+extern EntitySpec HyperBoyLogoEntitySpec;
+extern EntitySpec HyperFlash32LogoEntitySpec;
+extern EntitySpec LowPowerIndicatorEntitySpec;
 
 
 //---------------------------------------------------------------------------------------------------------
@@ -40,14 +40,14 @@ PositionedEntityROMSpec TestScreenStageSpecEntities[] =
 
 PositionedEntityROMSpec TestScreenStageSpecUiEntities[] =
 {
-	{&FlashBoyPlusLogoEntity,		{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
-	//{&HyperBoyLogoEntity,			{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
-	//{&HyperFlash32LogoEntity,		{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&LowPowerIndicatorEntity, 		{ 160,  103,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconLEntity, 		{-184, -104,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconREntity, 		{-184,  104,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconLEntity, 		{ 184,  104,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconREntity, 		{ 184, -104,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&FlashBoyPlusLogoEntitySpec,	{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
+	//{&HyperBoyLogoEntitySpec,		{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
+	//{&HyperFlash32LogoEntitySpec,	{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&LowPowerIndicatorEntitySpec, 	{ 160,  103,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconLEntitySpec, 	{-184, -104,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconREntitySpec, 	{-184,  104,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconLEntitySpec, 	{ 184,  104,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconREntitySpec, 	{ 184, -104,  0, 0}, 0, NULL, NULL, NULL, false},
 
 	{NULL, {0,0,0,0}, 0, NULL, NULL, NULL, false},
 };
@@ -266,7 +266,7 @@ StageROMSpec TestScreenStageSpec =
 		(TextureSpec**)NULL,
 
 		// background music
-		(Sound**)NULL,
+		(SoundSpec**)NULL,
 	},
 
 	// entities

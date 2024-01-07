@@ -26,9 +26,9 @@
 //												DECLARATIONS
 //---------------------------------------------------------------------------------------------------------
 
-extern Sound FailureSound;
-extern Sound SuccessSound;
-extern Sound SuccessSuccessSound;
+extern SoundSpec FailureSoundSpec;
+extern SoundSpec SuccessSoundSpec;
+extern SoundSpec SuccessSuccessSoundSpec;
 extern StageROMSpec TestScreenStageSpec;
 
 
@@ -99,13 +99,13 @@ void TestScreenState::startTest()
 	switch(success)
 	{
 		case 0: 
-			SoundManager::playSound(SoundManager::getInstance(), &FailureSound, kPlayAll, NULL, kSoundWrapperPlaybackNormal, NULL, NULL);
+			SoundManager::playSound(SoundManager::getInstance(), &FailureSoundSpec, kPlayAll, NULL, kSoundPlaybackNormal, NULL, NULL);
 			break;
 		case 1: 
-			SoundManager::playSound(SoundManager::getInstance(), &SuccessSound, kPlayAll, NULL, kSoundWrapperPlaybackNormal, NULL, NULL);
+			SoundManager::playSound(SoundManager::getInstance(), &SuccessSoundSpec, kPlayAll, NULL, kSoundPlaybackNormal, NULL, NULL);
 			break;
 		case 2: 
-			SoundManager::playSound(SoundManager::getInstance(), &SuccessSuccessSound, kPlayAll, NULL, kSoundWrapperPlaybackNormal, NULL, NULL);
+			SoundManager::playSound(SoundManager::getInstance(), &SuccessSuccessSoundSpec, kPlayAll, NULL, kSoundPlaybackNormal, NULL, NULL);
 			break;
 	}
 }
