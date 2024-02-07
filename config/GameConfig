@@ -1,6 +1,6 @@
 {
-    "plugins": [
-        "vuengine//entities/LowPowerEntity"
-    ],
+    "plugins": {
+        "vuengine//entities/LowPowerEntity": {}
+	},
     "projectTitle": "Flash Cart Test Program"
 }

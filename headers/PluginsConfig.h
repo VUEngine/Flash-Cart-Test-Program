@@ -1,19 +1,20 @@
-/*
- * Flash Cart Test Program
- *
- * © Christian Radke
- *
- * For the full copyright and license information, please view the LICENSE file
- * that was distributed with this source code.
- */
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                              THIS FILE WAS AUTO-GENERATED - DO NOT EDIT                               //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #ifndef PLUGINS_CONFIG_H_
 #define PLUGINS_CONFIG_H_
 
 
 //---------------------------------------------------------------------------------------------------------
-//												PLUGINS
+//                                          CONFIGURATION MACROS                                           
 //---------------------------------------------------------------------------------------------------------
+
+#define __PLUGIN_LOW_POWER_ENTITY_USE_GUI_BGMAP_ANIMATED_SPRITE (false)
+#define __PLUGIN_LOW_POWER_ENTITY_X_POSITION (-176)
+#define __PLUGIN_LOW_POWER_ENTITY_Y_POSITION (-100)
+#define __PLUGIN_LOW_POWER_ENTITY_Z_POSITION (0)
+#define __PLUGIN_LOW_POWER_ENTITY_Z_DISPLACEMENT (0)
 
 
 #endif
