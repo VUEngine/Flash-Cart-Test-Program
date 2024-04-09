@@ -9,21 +9,20 @@
 
 
 //---------------------------------------------------------------------------------------------------------
-//												INCLUDES
+// 												INCLUDES
 //---------------------------------------------------------------------------------------------------------
 
-#include <VUEngine.h>
+#include <AnimationInspector.h>
 #include <Debug.h>
 #include <StageEditor.h>
-#include <AnimationInspector.h>
-#include <Entity.h>
+#include <VUEngine.h>
 
 
 //---------------------------------------------------------------------------------------------------------
-//										DEFINITIONS
+//												DEFINITIONS
 //---------------------------------------------------------------------------------------------------------
 
-#ifdef __DEBUG_TOOLS
+#ifdef __DEBUG_TOOL
 const ClassSizeData _userClassesSizeData[] =
 {
 	{NULL, ""},

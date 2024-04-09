@@ -157,10 +157,6 @@
 //                                           FRAME RATE CONTROL                                            
 //---------------------------------------------------------------------------------------------------------
 
-// when defined, the engine skips to the next game frame when the VIP's GAMESTART interrupt is fired
-// beforethe current game frame is done
-#undef __FORCE_VIP_SYNC
-
 // timer resolution
 #define __TIMER_RESOLUTION											10
 
@@ -254,8 +250,11 @@
 //                                            SPRITE MANAGEMENT                                            
 //---------------------------------------------------------------------------------------------------------
 
-// total number of layers (basically the number of worlds)
+// total number of WORLDS
 #define __TOTAL_LAYERS												32
+
+// total number of OBJECTS
+#define __TOTAL_OBJECTS												1024
 
 // Account for VIP's design to draw 8 pixel when BGMAP WORLD's height is less than 8
 #define __HACK_BGMAP_SPRITE_HEIGHT
@@ -325,7 +324,7 @@
 // smaller values allow movement to start when colliding against a collider and trying to move towards it
 #define __COLLIDER_ANGLE_TO_PREVENT_DISPLACEMENT						__FIX7_9_TO_FIXED(__COS(10))
 
-// maximum size of shapes allows to avoid checks against far away shapes
+// maximum size of colliders allows to avoid checks against far away colliders
 #define __COLLIDER_MAXIMUM_SIZE										__PIXELS_TO_METERS(256)
 
 

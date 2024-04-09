@@ -12,20 +12,11 @@
 
 
 //---------------------------------------------------------------------------------------------------------
-//                                               IMAGE DATA                                                
+//                                              DECLARATIONS                                               
 //---------------------------------------------------------------------------------------------------------
 
-const uint32 AdjustmentIconREntityAdjustmentIconRightTiles[17] __attribute__((aligned(4))) =
-{
-	0x00000000,
-	0xAFEBFFFC,0xAFEBAFEB,0xABABAFEB,0xEBAFEBAF,0xFAAB3FFF,0xEAABEAAB,0xEBEBEBEB,0xFAABEBEB,
-	0xEAAFEBAF,0xFABFFABF,0xFEFFFABF,0xFFFCFEFF,0xEBEBEAAB,0xEBEBEBEB,0xEAABEAAB,0x3FFFFAAB,
-};
-
-const uint16 AdjustmentIconREntityAdjustmentIconMap[4] __attribute__((aligned(4))) =
-{
-	0x0000,0x0001,0x0002,0x0003,
-};
+extern uint32 AdjustmentIconREntityAdjustmentIconRTiles[];
+extern uint16 AdjustmentIconREntityAdjustmentIconMap[];
 
 
 //---------------------------------------------------------------------------------------------------------
@@ -45,7 +36,7 @@ CharSetROMSpec AdjustmentIconRSprite1CharsetSpec =
 	true,
 
 	// char spec
-	(uint32*)AdjustmentIconREntityAdjustmentIconRightTiles,
+	AdjustmentIconREntityAdjustmentIconRTiles,
 
 	// pointer to the frames offsets
 	NULL,
@@ -57,7 +48,7 @@ TextureROMSpec AdjustmentIconRSprite1TextureSpec =
 	(CharSetSpec*)&AdjustmentIconRSprite1CharsetSpec,
 
 	// bgmap spec
-	(uint16*)AdjustmentIconREntityAdjustmentIconMap,
+	AdjustmentIconREntityAdjustmentIconMap,
 
 	// cols (max 64)
 	2,
@@ -113,7 +104,7 @@ BgmapSpriteROMSpec AdjustmentIconRSprite1SpriteSpec =
 
 BgmapSpriteROMSpec* const AdjustmentIconRSpriteSpecs[] =
 {
-	&AdjustmentIconRSprite1SpriteSpec,
+	(BgmapSpriteSpec*)&AdjustmentIconRSprite1SpriteSpec,
 	NULL
 };
 
@@ -144,7 +135,7 @@ EntityROMSpec AdjustmentIconREntitySpec =
 			// wireframes
 			NULL,
 
-			// collider shapes
+			// colliders
 			NULL,
 
 			// size

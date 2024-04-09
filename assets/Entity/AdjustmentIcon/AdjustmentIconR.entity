@@ -1,24 +1,95 @@
 {
     "_id": "PMsgHJRG3g0QHzeo",
     "animations": {
-        "animations": [],
         "default": 0,
-        "enabled": false,
         "multiframe": false,
         "totalFrames": 1
     },
-    "behaviors": {
-        "behaviors": []
-    },
-    "children": {
-        "children": []
-    },
-    "colliders": {
+    "components": {
+        "animations": [],
+        "behaviors": [],
+        "children": [],
         "colliders": [],
-        "inGameType": "None"
+        "scripts": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "tiles": {
+                                "count": 4,
+                                "data": "H4sIAAAAAAAAE2WNywnAMAxDd/G5t04gh2iJ0v3XqJQ/FCN4sRXpCbAmyRJXQ8uYmNh3oJBA3jJ7K7Saoc8wDNRxf1ODZKxcqFI/Z8Iv7KhwqbPj/QAOhExisQAAAA==",
+                                "height": "40",
+                                "width": "8",
+                                "name": "AdjustmentIconR"
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAAE4tWMgACJR0QZQihjCCUsVIsACikrCUdAAAA",
+                                    "height": "2",
+                                    "width": "2",
+                                    "name": "AdjustmentIcon"
+                                }
+                            ]
+                        }
+                    ],
+                    "dupeIndex": 1
+                },
+                "name": "AdjustmentIcon",
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "displayMode": "Mono",
+                "displays": "RON",
+                "transparency": "None",
+                "displacement": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "parallax": 0
+                },
+                "manipulationFunction": "",
+                "texture": {
+                    "files": [
+                        "assets/Entity/AdjustmentIcon/AdjustmentIcon.png"
+                    ],
+                    "files2": [],
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "repeat": {
+                        "mode": "1x1",
+                        "x": false,
+                        "y": false,
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    }
+                },
+                "section": "rom",
+                "compression": "none"
+            }
+        ],
+        "wireframes": []
     },
-    "extraInfo": "",
-    "name": "Adjustment Icon (R)",
+    "extraProperties": {
+        "customAllocator": "",
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
     "physics": {
         "bounciness": 0,
         "enabled": false,
@@ -33,68 +104,10 @@
         },
         "rotationAxes": []
     },
-    "pixelSize": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-    },
     "sprites": {
-        "compression": "none",
-        "customClass": "",
         "optimizedTiles": true,
-        "section": "rom",
         "sharedTiles": true,
-        "sprites": [
-            {
-                "_imageData": {
-                    "_dupeIndex": 1,
-                    "maps": [
-                        {
-                            "data": "H4sIAAAAAAAAE4tWMgACJR0QZQihjCCUsVIsACikrCUdAAAA",
-                            "height": "2",
-                            "name": "AdjustmentIcon",
-                            "width": "2"
-                        }
-                    ],
-                    "tiles": {
-                        "count": 4,
-                        "data": "H4sIAAAAAAAAE2WNywnAMAxDd/G5t04gh2iJ0v3XqJQ/FCN4sRXpCbAmyRJXQ8uYmNh3oJBA3jJ7K7Saoc8wDNRxf1ODZKxcqFI/Z8Iv7KhwqbPj/QAOhExisQAAAA==",
-                        "height": "40",
-                        "name": "AdjustmentIconRight",
-                        "width": "8"
-                    }
-                },
-                "bgmapMode": "Bgmap",
-                "displacement": {
-                    "parallax": 0,
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "displayMode": "RON",
-                "manipulationFunction": "",
-                "texture": {
-                    "files": [
-                        "assets/Entity/AdjustmentIcon/AdjustmentIcon.png"
-                    ],
-                    "flip": {
-                        "horizontal": false,
-                        "vertical": false
-                    },
-                    "padding": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "palette": 0,
-                    "recycleable": false
-                },
-                "transparency": "None"
-            }
-        ],
         "type": "Bgmap",
         "useZDisplacementInProjection": false
-    },
-    "wireframes": {
-        "wireframes": []
     }
 }

@@ -35,21 +35,21 @@ extern EntitySpec LowPowerIndicatorEntitySpec;
 
 PositionedEntityROMSpec TestScreenStageSpecEntities[] =
 {
-	{NULL, {0,0,0,0}, 0, NULL, NULL, NULL, false},
+	{NULL, {0, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 };
 
 PositionedEntityROMSpec TestScreenStageSpecUiEntities[] =
 {
-	{&FlashBoyPlusLogoEntitySpec,	{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
-	//{&HyperBoyLogoEntitySpec,		{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
-	//{&HyperFlash32LogoEntitySpec,	{   0,  -16,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&LowPowerIndicatorEntitySpec, 	{ 160,  103,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconLEntitySpec, 	{-184, -104,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconREntitySpec, 	{-184,  104,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconLEntitySpec, 	{ 184,  104,  0, 0}, 0, NULL, NULL, NULL, false},
-	{&AdjustmentIconREntitySpec, 	{ 184, -104,  0, 0}, 0, NULL, NULL, NULL, false},
+	{&FlashBoyPlusLogoEntitySpec,	{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&HyperBoyLogoEntitySpec,		{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&HyperFlash32LogoEntitySpec,	{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&LowPowerIndicatorEntitySpec, 	{ 160,  103,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconLEntitySpec, 	{-184, -104,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconREntitySpec, 	{-184,  104,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconLEntitySpec, 	{ 184,  104,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&AdjustmentIconREntitySpec, 	{ 184, -104,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 
-	{NULL, {0,0,0,0}, 0, NULL, NULL, NULL, false},
+	{NULL, {0, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 };
 
 
@@ -201,13 +201,13 @@ StageROMSpec TestScreenStageSpec =
 		// obj segments sizes (must total 1024)
 		{
 			// __spt0
-			__AVAILABLE_CHAR_OBJECTS / __TOTAL_OBJECT_SEGMENTS,
+			1024,
 			// __spt1
-			__AVAILABLE_CHAR_OBJECTS / __TOTAL_OBJECT_SEGMENTS,
+			0,
 			// __spt2
-			__AVAILABLE_CHAR_OBJECTS / __TOTAL_OBJECT_SEGMENTS,
+			0,
 			// __spt3
-			__AVAILABLE_CHAR_OBJECTS / __TOTAL_OBJECT_SEGMENTS,
+			0,
 		},
 
 		// OBJECT segments z coordinates

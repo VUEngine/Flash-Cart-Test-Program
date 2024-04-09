@@ -1,24 +1,152 @@
 {
     "_id": "Vm28ediSeAvC7rlx",
     "animations": {
-        "animations": [],
         "default": 0,
-        "enabled": false,
         "multiframe": false,
         "totalFrames": 1
     },
-    "behaviors": {
-        "behaviors": []
-    },
-    "children": {
-        "children": []
-    },
-    "colliders": {
+    "components": {
+        "animations": [],
+        "behaviors": [],
+        "children": [],
         "colliders": [],
-        "inGameType": "None"
+        "scripts": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "dupeIndex": 1,
+                    "images": [
+                        {
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAAE82VQW6DQAxF78K6C+xv07IMTXOJqPe/RoFHI0aaREiFpGy+EMO8/+0xXJt2vJq3SQxxRDUJpC0kke7Be1V5Rz5qz3rkhAzFs8/ivTPyhVxmsXarCbN1FCO7bc9wlOg3n1Fyy82J6INRXatW9zVifVHr0z+w9NdEQ5GIg2mcSONEGifSWeIcN+ecObs4LXZa7N16M6eNThudCjqlc+g+rfTb3Zm7ZSUmHBPChDAhTAgTqo22sCQsCS/CiyAIL4IuXIsSCLqgB3sG9IAe0AN6wAt4AS/gBbyAF/ACXsALeAEv20qitHm45unYVcatH304d5FUJdGBknFcFDqd3TMT6fa5X0wsjdvlG5n9M6OMPAYhh2b1t0jmIad5sDu/1g1RmKO81OnfP/2nGXg1CAAA",
+                                    "height": "10",
+                                    "width": "30",
+                                    "name": "FlashBoyPlusLogoBackground"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 253,
+                                "data": "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",
+                                "height": "2024",
+                                "name": "FlashBoyPlusLogo",
+                                "width": "8"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": -1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "manipulationFunction": "",
+                "name": "FlashBoyPlusLogoBackground",
+                "section": "rom",
+                "texture": {
+                    "files": [
+                        "assets/Entity/FlashBoyPlusLogo/FlashBoyPlusLogoBackground.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "dupeIndex": 1,
+                    "images": [
+                        {
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAAE+2VO3LDMAxE7+I6hb8CUAIEeIlM7n+NOH70hJxRihSeNHGzY5HQvgUh6f1wvP8Ob3fZhpyQM3JBrsjtIaNglW1DBNHlLkMM8aUukLbszAWplrX+EGFNwBXW5DLfWqAWqAVAAVAAFNuJIgAKZAKZgCSwCBBKgQKhQCgQirvirrgr7oq74q74KX6Kn+aMpNgqtsZFw9awtS/by7Nno86AMCAMCAPCgDAgDAgDwoAwIAx363OB4+BAOBBOdsfWbz+TOSwOi+uyNhxAcpAcJAfJQXKQ4jjvDJACpAApQAqQAvfAPXAPbAPbGDfDNrANbKPvjE0bctpbO89jM6RB1q5zexqAbVt2wtl0rwDq5ktBfLufn/+ea20hw6jlDvW//F4aE9LodXIxmYk8zzuT48/xnqAuOf7kVJJzT849915WL5RkpJLpScYmGZQcuMuDUENIW6QtYhYxa7yM9x6S10vR1pL5eSi6W3S3lq9Tkb3IXmQvshflnZ39bxJ1mtyXD1+n151ed0J3QnddLhK6+3KR0L3t2358AvD8dcc1CAAA",
+                                    "height": "10",
+                                    "width": "30",
+                                    "name": "FlashBoyPlusLogoForeground"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": -1,
+                    "x": 0,
+                    "y": 0,
+                    "z": -1
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "manipulationFunction": "",
+                "name": "FlashBoyPlusLogoForeground",
+                "section": "rom",
+                "texture": {
+                    "files": [
+                        "assets/Entity/FlashBoyPlusLogo/FlashBoyPlusLogoForeground.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
     },
-    "extraInfo": "",
-    "name": "FlashBoy Plus Logo",
+    "extraProperties": {
+        "customAllocator": "",
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
     "physics": {
         "bounciness": 0,
         "enabled": false,
@@ -33,106 +161,10 @@
         },
         "rotationAxes": []
     },
-    "pixelSize": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-    },
     "sprites": {
-        "compression": "none",
-        "customClass": "",
         "optimizedTiles": true,
-        "section": "rom",
         "sharedTiles": true,
-        "sprites": [
-            {
-                "_imageData": {
-                    "tiles": {
-                        "count": 253,
-                        "data": "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",
-                        "height": "2024",
-                        "width": "8",
-                        "name": "FlashBoyPlusLogo"
-                    },
-                    "maps": [
-                        {
-                            "data": "H4sIAAAAAAAAE82VQW6DQAxF78K6C+xv07IMTXOJqPe/RoFHI0aaREiFpGy+EMO8/+0xXJt2vJq3SQxxRDUJpC0kke7Be1V5Rz5qz3rkhAzFs8/ivTPyhVxmsXarCbN1FCO7bc9wlOg3n1Fyy82J6INRXatW9zVifVHr0z+w9NdEQ5GIg2mcSONEGifSWeIcN+ecObs4LXZa7N16M6eNThudCjqlc+g+rfTb3Zm7ZSUmHBPChDAhTAgTqo22sCQsCS/CiyAIL4IuXIsSCLqgB3sG9IAe0AN6wAt4AS/gBbyAF/ACXsALeAEv20qitHm45unYVcatH304d5FUJdGBknFcFDqd3TMT6fa5X0wsjdvlG5n9M6OMPAYhh2b1t0jmIad5sDu/1g1RmKO81OnfP/2nGXg1CAAA",
-                            "height": "10",
-                            "width": "30",
-                            "name": "FlashBoyPlusLogoBackground"
-                        }
-                    ],
-                    "_dupeIndex": 1
-                },
-                "bgmapMode": "Bgmap",
-                "displayMode": "ON",
-                "transparency": "None",
-                "displacement": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "parallax": 0
-                },
-                "manipulationFunction": "",
-                "texture": {
-                    "files": [
-                        "assets/Entity/FlashBoyPlusLogo/FlashBoyPlusLogoBackground.png"
-                    ],
-                    "padding": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "palette": 1,
-                    "recycleable": false,
-                    "flip": {
-                        "horizontal": false,
-                        "vertical": false
-                    }
-                }
-            },
-            {
-                "_imageData": {
-                    "maps": [
-                        {
-                            "data": "H4sIAAAAAAAAE+2VO3LDMAxE7+I6hb8CUAIEeIlM7n+NOH70hJxRihSeNHGzY5HQvgUh6f1wvP8Ob3fZhpyQM3JBrsjtIaNglW1DBNHlLkMM8aUukLbszAWplrX+EGFNwBXW5DLfWqAWqAVAAVAAFNuJIgAKZAKZgCSwCBBKgQKhQCgQirvirrgr7oq74q74KX6Kn+aMpNgqtsZFw9awtS/by7Nno86AMCAMCAPCgDAgDAgDwoAwIAx363OB4+BAOBBOdsfWbz+TOSwOi+uyNhxAcpAcJAfJQXKQ4jjvDJACpAApQAqQAvfAPXAPbAPbGDfDNrANbKPvjE0bctpbO89jM6RB1q5zexqAbVt2wtl0rwDq5ktBfLufn/+ea20hw6jlDvW//F4aE9LodXIxmYk8zzuT48/xnqAuOf7kVJJzT849915WL5RkpJLpScYmGZQcuMuDUENIW6QtYhYxa7yM9x6S10vR1pL5eSi6W3S3lq9Tkb3IXmQvshflnZ39bxJ1mtyXD1+n151ed0J3QnddLhK6+3KR0L3t2358AvD8dcc1CAAA",
-                            "height": "10",
-                            "width": "30",
-                            "name": "FlashBoyPlusLogoForeground"
-                        }
-                    ],
-                    "_dupeIndex": 1
-                },
-                "bgmapMode": "Bgmap",
-                "displayMode": "ON",
-                "transparency": "None",
-                "displacement": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "parallax": 0
-                },
-                "manipulationFunction": "",
-                "texture": {
-                    "files": [
-                        "assets/Entity/FlashBoyPlusLogo/FlashBoyPlusLogoForeground.png"
-                    ],
-                    "padding": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "palette": 0,
-                    "recycleable": false,
-                    "flip": {
-                        "horizontal": false,
-                        "vertical": false
-                    }
-                }
-            }
-        ],
         "type": "Bgmap",
         "useZDisplacementInProjection": false
-    },
-    "wireframes": {
-        "wireframes": []
     }
 }

@@ -1,5 +1,4 @@
 {
-    "_id": "",
     "affine": {
         "maxRowsPerCall": 16,
         "maxScale": 2
@@ -40,7 +39,6 @@
         }
     },
     "frameRate": {
-        "forceVipSync": false,
         "frameCycle": 0,
         "runDelayedMessagesAtHalfFrameRate": false,
         "timerResolution": 10
@@ -143,7 +141,8 @@
     },
     "sprite": {
         "hackBgmapSpriteHeight": true,
-        "totalLayers": 32
+        "totalLayers": 32,
+        "totalObjects": 1024
     },
     "sram": {
         "totalSram": 8192
