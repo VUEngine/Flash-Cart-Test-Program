@@ -25,6 +25,7 @@ extern EntitySpec AdjustmentIconLEntitySpec;
 extern EntitySpec AdjustmentIconREntitySpec;
 extern EntitySpec FlashBoyPlusLogoEntitySpec;
 extern EntitySpec HyperBoyLogoEntitySpec;
+extern EntitySpec HyperBoyPlusLogoEntitySpec;
 extern EntitySpec HyperFlash32LogoEntitySpec;
 extern EntitySpec LowPowerIndicatorEntitySpec;
 
@@ -42,6 +43,7 @@ PositionedEntityROMSpec TestScreenStageSpecUiEntities[] =
 {
 	{&FlashBoyPlusLogoEntitySpec,	{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	//{&HyperBoyLogoEntitySpec,		{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&HyperBoyPlusLogoEntitySpec,	{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	//{&HyperFlash32LogoEntitySpec,	{   0,  -16,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&LowPowerIndicatorEntitySpec, 	{ 160,  103,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&AdjustmentIconLEntitySpec, 	{-184, -104,  0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},

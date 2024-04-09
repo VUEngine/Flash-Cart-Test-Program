@@ -1,0 +1,113 @@
+{
+    "_id": "CRLPOkKb06g1piOr",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "components": {
+        "animations": [],
+        "behaviors": [],
+        "children": [],
+        "colliders": [],
+        "scripts": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "tiles": {
+                                "count": 52,
+                                "data": "H4sIAAAAAAAAE5WVW47DIAxF99Lv+bDkFURI3kQ1+9/G4BiHazB1JxLVUUOun5j3i8bz+vkXskjTdUTYK41I1xHRRP9cl6J0lBtVkzbdHFu+ARSmLloDf/s+sb2APDHudTEZj8cmq25E6YtvZMXdh0dsIgGWeynzQfRPsxaR5FsfKPPhzmT/sURBSvTFpmuWj/hNbJkPlkl+3JltlNVYeK9bmjPVjCY8DzPiz4cBsDwMgKM728ykud7umB5s3vbtqTGikOuyLnedZUYxkCPycgpLRGsVBsMFgutmy5oWMbSGu27GZJaQN/QaX9dFuo6IJazmA1Yz7V+YD3l2oJpY2FSMZysTdHXlA40BsZQ75Iz2RGG5c93FxOdymxNLufOchYj9BEDERxMe0DEP6HpyM6RXUtk7+jLtqPvZkAZG3WTv0L1iFG1ccBEPKeGIEJtheRggtvyWjqfFJ1c9S8KATqYc4PFC4Yihf3//AKYK4c7xCAAA",
+                                "height": "416",
+                                "width": "8",
+                                "name": "HyperBoyPlusLogo"
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAAE72USw7CMAxE78KaRcYutF0WSi+BuP81CH1NPyItIBCrJysee+JEvu5CCNrtH7AIAzFyUIADOIISVKAGDTiBM2jBBXQ9FPpGPWJEd221DRmITBUUQyAEwqfKjcxqUYw7qCGlAkNUTwJLurlgpe27rm30yeh0/ovrlbapdLuIeD91cy/GmSmTabymcQcbBIe5CWNYVk6uY4RPq9dnnW1rwxlXsY0JJp/LQXruqXKzNuZilw9/SLZmMt+9/Ndfuh5MePih6zmcHSKWh487hBTXU+ZSLnaIs0PEDvG0NZxi7px1PUQxIRfdtdo2g9sd4snYvfsEAAA=",
+                                    "height": "7",
+                                    "width": "26",
+                                    "name": "HyperBoyPlusLogo"
+                                }
+                            ]
+                        }
+                    ],
+                    "dupeIndex": 1
+                },
+                "name": "HyperBoyPlusLogo",
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "displayMode": "Mono",
+                "displays": "ON",
+                "transparency": "None",
+                "displacement": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "parallax": -1
+                },
+                "manipulationFunction": "",
+                "texture": {
+                    "files": [
+                        "assets/Entity/HyperBoyPlusLogo/HyperBoyPlusLogo.png"
+                    ],
+                    "files2": [],
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "repeat": {
+                        "mode": "1x1",
+                        "x": false,
+                        "y": false,
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    }
+                },
+                "section": "rom",
+                "compression": "none"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "customAllocator": "",
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "physics": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "sprites": {
+        "optimizedTiles": true,
+        "sharedTiles": true,
+        "type": "Bgmap",
+        "useZDisplacementInProjection": false
+    }
+}
