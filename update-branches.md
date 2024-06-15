@@ -1,0 +1,1 @@
+git checkout hyperboy && git rebase main hyperboy && git push --force  && git checkout hyperboy-plus && git rebase main hyperboy-plus && git push --force  && git checkout hyperflash-32 && git rebase main hyperflash-32 && git push --force  && git checkout main
