@@ -10,10 +10,13 @@ Outputs some audio clues as well so peeking into the VB isn't even necessary for
 - Single success sound: Successful read/write test, but no previous value could be read
 - Failure sound: Read/write test failed
 
+Contains a low battery indicator and an alignment check screen that can be activated with the Select button.
+
 Has branches with versions for various flash carts:
 - FlashBoy Plus (main)
 - HyperFlash32 (hyperflash32)
 - HyperBoy (hyperboy)
+- HyperBoy+ (hyperboy-plus)
 
 ![](screenshot.png?raw=true)
 
