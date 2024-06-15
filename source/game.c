@@ -14,6 +14,7 @@
 
 #include <VUEngine.h>
 #include <TestScreenState.h>
+#include <AlignmentCheckScreenState.h>
 
 
 //---------------------------------------------------------------------------------------------------------
@@ -22,6 +23,12 @@
 
 int32 game(void)
 {
+	// initialize plugins
+	SplashScreenState::setNextState(
+		SplashScreenState::safeCast(AlignmentCheckScreenState::getInstance()),
+		GameState::safeCast(TestScreenState::getInstance())
+	);
+
 	// start the game
 	VUEngine::start(VUEngine::getInstance(), GameState::safeCast(TestScreenState::getInstance()));
 

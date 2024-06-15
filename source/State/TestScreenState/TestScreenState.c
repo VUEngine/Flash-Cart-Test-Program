@@ -19,6 +19,7 @@
 #include <SoundManager.h>
 #include <SRAMManager.h>
 #include <TestScreenState.h>
+#include <AlignmentCheckScreenState.h>
 #include <string.h>
 
 
@@ -30,7 +31,6 @@ extern SoundSpec FailureSoundSpec;
 extern SoundSpec SuccessSoundSpec;
 extern SoundSpec SuccessSuccessSoundSpec;
 extern StageROMSpec TestScreenStageSpec;
-extern const uint32 AlignmentCheckButtonSequence[__PLUGIN_ALIGNMENT_CHECK_BUTTON_SEQUENCE_LENGTH];
 
 
 //---------------------------------------------------------------------------------------------------------
@@ -40,8 +40,6 @@ extern const uint32 AlignmentCheckButtonSequence[__PLUGIN_ALIGNMENT_CHECK_BUTTON
 void TestScreenState::constructor()
 {
 	Base::constructor();
-
-	TestScreenState::resetLastInputs(this);
 }
 
 void TestScreenState::destructor()
@@ -52,13 +50,27 @@ void TestScreenState::destructor()
 void TestScreenState::enter(void* owner)
 {
 	Base::enter(this, owner);
+	TestScreenState::init(this);
+}
 
+void TestScreenState::suspend(void* owner)
+{
+	Camera::startEffect(Camera::getInstance(), kFadeOut, __FADE_DELAY);
+	Base::suspend(this, owner);
+}
+
+void TestScreenState::resume(void* owner)
+{
+	Base::resume(this, owner);
+	TestScreenState::init(this);
+}
+
+void TestScreenState::init()
+{
 	TestScreenState::loadStage(this, (StageSpec*)&TestScreenStageSpec, NULL, true, false);
 
 	TestScreenState::startClocks(this);
 	Printing::setCoordinates(Printing::getInstance(), 0, 0, 0, 0);
-
-	TestScreenState::resetLastInputs(this);
 
 	VUEngine::enableKeypad(VUEngine::getInstance());
 
@@ -66,6 +78,14 @@ void TestScreenState::enter(void* owner)
 
 	Camera::startEffect(Camera::getInstance(), kHide);
 	Camera::startEffect(Camera::getInstance(), kFadeTo, 0, NULL, 0, NULL, NULL);
+}
+
+void TestScreenState::processUserInput(const UserInput* userInput)
+{
+	if(userInput->pressedKey & ~K_PWR & K_SEL)
+	{
+		VUEngine::changeState(VUEngine::getInstance(), GameState::safeCast(AlignmentCheckScreenState::getInstance()));
+	}
 }
 
 void TestScreenState::startTest()
@@ -128,45 +148,4 @@ bool TestScreenState::testSRAM(bool write)
 	SRAMManager::read(sramManager, (BYTE*)&testString, 0, sizeof(testString));
 
 	return !strncmp(testString, TEST_STRING, testStringLength);
-}
-
-void TestScreenState::processUserInput(const UserInput* userInput)
-{
-	if(userInput->pressedKey & ~K_PWR)
-	{
-		TestScreenState::recordLastInput(this, userInput);
-		TestScreenState::matchButtonCode(this);
-	}
-}
-
-void TestScreenState::resetLastInputs()
-{
-	for(uint8 i = 0; i < __PLUGIN_ALIGNMENT_CHECK_BUTTON_SEQUENCE_LENGTH; i++)
-	{
-		this->lastInputs[i] = 0;
-	}
-}
-
-void TestScreenState::recordLastInput(const UserInput* userInput)
-{
-	for(uint8 i = 0; i < (__PLUGIN_ALIGNMENT_CHECK_BUTTON_SEQUENCE_LENGTH - 1); i++)
-	{
-		this->lastInputs[i] = this->lastInputs[i + 1];
-	}
-	this->lastInputs[__PLUGIN_ALIGNMENT_CHECK_BUTTON_SEQUENCE_LENGTH - 1] = userInput->pressedKey;
-}
-
-void TestScreenState::matchButtonCode()
-{
-	uint8 numberOfMatchingButtons = 0;
-
-	for(uint8 i = 0; i < __PLUGIN_ALIGNMENT_CHECK_BUTTON_SEQUENCE_LENGTH; i++)
-	{
-		numberOfMatchingButtons += (AlignmentCheckButtonSequence[i] == this->lastInputs[i]);
-	}
-
-	if(numberOfMatchingButtons == __PLUGIN_ALIGNMENT_CHECK_BUTTON_SEQUENCE_LENGTH)
-	{
-		VUEngine::pause(VUEngine::getInstance(), GameState::safeCast(AlignmentCheckScreenState::getInstance()));
-	}
 }

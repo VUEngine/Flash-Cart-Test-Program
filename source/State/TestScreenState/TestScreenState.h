@@ -16,7 +16,6 @@
 //---------------------------------------------------------------------------------------------------------
 
 #include <GameState.h>
-#include <AlignmentCheckScreenState.h>
 
 
 //---------------------------------------------------------------------------------------------------------
@@ -32,8 +31,6 @@
 
 singleton class TestScreenState : GameState
 {
-	uint32 lastInputs[__PLUGIN_ALIGNMENT_CHECK_BUTTON_SEQUENCE_LENGTH];
-
 	static TestScreenState getInstance();
 	override void enter(void* owner);
 	override void processUserInput(const UserInput*  userInput);
