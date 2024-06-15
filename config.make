@@ -3,10 +3,8 @@
 ###########################################################################################################
 
 # VUEngine plugins which the project uses
-PLUGINS							= vuengine//entities/LowPowerEntity
-
-# Compiler's output
-COMPILER_OUTPUT					= c
+PLUGINS							= vuengine//entities/LowPowerEntity \
+								  vuengine//states/splash/AlignmentCheckScreen
 
 # Optimization level
 OPTIMIZATION					= O2

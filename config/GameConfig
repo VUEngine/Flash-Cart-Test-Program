@@ -1,6 +1,7 @@
 {
     "plugins": {
-        "vuengine//entities/LowPowerEntity": {}
-	},
+        "vuengine//entities/LowPowerEntity": {},
+        "vuengine//states/splash/AlignmentCheckScreen": {}
+    },
     "projectTitle": "Flash Cart Test Program"
 }
