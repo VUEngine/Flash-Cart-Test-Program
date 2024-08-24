@@ -15,7 +15,7 @@
 //                                              DECLARATIONS                                               
 //---------------------------------------------------------------------------------------------------------
 
-extern uint32 AdjustmentIconREntityAdjustmentIconRTiles[];
+extern uint32 AdjustmentIconREntityAdjustmentIconTiles[];
 extern uint16 AdjustmentIconREntityAdjustmentIconMap[];
 
 
@@ -36,7 +36,7 @@ CharSetROMSpec AdjustmentIconRSprite1CharsetSpec =
 	true,
 
 	// char spec
-	AdjustmentIconREntityAdjustmentIconRTiles,
+	AdjustmentIconREntityAdjustmentIconTiles,
 
 	// pointer to the frames offsets
 	NULL,
@@ -145,6 +145,6 @@ EntityROMSpec AdjustmentIconREntitySpec =
 			// gameworld's character's type
 			kTypeNone,
 
-			// physical specification
-			(PhysicalProperties*)NULL,
+			// physical specification 
+			NULL,
 };

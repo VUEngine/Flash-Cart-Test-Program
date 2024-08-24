@@ -14,23 +14,23 @@
         "sprites": [
             {
                 "_imageData": {
-                    "dupeIndex": 1,
                     "images": [
                         {
+                            "animation": {
+                                "frames": 1
+                            },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAAE82VQW6DQAxF78K6C+xv07IMTXOJqPe/RoFHI0aaREiFpGy+EMO8/+0xXJt2vJq3SQxxRDUJpC0kke7Be1V5Rz5qz3rkhAzFs8/ivTPyhVxmsXarCbN1FCO7bc9wlOg3n1Fyy82J6INRXatW9zVifVHr0z+w9NdEQ5GIg2mcSONEGifSWeIcN+ecObs4LXZa7N16M6eNThudCjqlc+g+rfTb3Zm7ZSUmHBPChDAhTAgTqo22sCQsCS/CiyAIL4IuXIsSCLqgB3sG9IAe0AN6wAt4AS/gBbyAF/ACXsALeAEv20qitHm45unYVcatH304d5FUJdGBknFcFDqd3TMT6fa5X0wsjdvlG5n9M6OMPAYhh2b1t0jmIad5sDu/1g1RmKO81OnfP/2nGXg1CAAA",
+                                    "data": "H4sIAAAAAAAAE82VQW6DQAxF75J1F7a/TcsyNM0lqt7/GhU8GoE0jZACaVdfiGHe//Z4+DyZmZ1eRnEkELUkEVtJId2d75ryiry13vXIGRlW795X312QD+Q6idtWE+7LKE52357hKNFPPqfkXpsT0Qenut6s7t+I96tan/+BpUcTDatEHEznRDon0jmRwZLguAXnLNglaHHQ4uiWmwVtDNoYVDAoXUCPcWXcni48zSsxEZgQJoQJYUKYUGu0hSVhSXgRXgRBeBF04VqUQNAFPdkzoSf0hJ7QE17CS3gJL+ElvISX8BJewkt4ZY1E5dNwTdOxq5jVvYtzFyk1Eh0olcdFodPVPTORbtf9bGJu3C53ZPXPjGJWDEINy79FMQ81zoP/8mvdEIU5qmub/vUN/acZeDUIAAA=",
                                     "height": "10",
                                     "width": "30",
                                     "name": "FlashBoyPlusLogoBackground"
                                 }
                             ],
                             "tiles": {
-                                "count": 253,
-                                "data": "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",
-                                "height": "2024",
-                                "name": "FlashBoyPlusLogo",
-                                "width": "8"
+                                "count": 96,
+                                "data": "H4sIAAAAAAAAE61XQY7kMAj8S85zsCXTKNcW8SdW+/9vrGwTg21wMtJOKxLjYUgBRTX+cwT+OX5+ZUIKAdiEFADYhAQAbJbfxAT4L2Yo8UM/jYtDVL429BBCuqGHUDLhLPppw+5iSCGWILHWoeB5hu4Hm8zwtg5DL0oScfdv6XUvVG7vehH9XoymEOahJCpudHsclzok1dgg9Ey9x/rfpNTajFDy97mTHBr5E7DkFuVttdT322KBPDVW0zPIK9Jo1sYO0EHiRj0tXNTn6a6+KwYIQiMjzSE3C0MzY+dDj6DMJNS4TW4mLGZkpjJyn7T5lFMCKM/Gl77dl6g8vu9X+baP63thQ3H8HAhA5fHjXp98nyJCefzJygQ9LmJ5fF8cTdzV4UIUDDW064tXVnHrx/UlhDsuMuAd3td1wNzjEjfOj0uVBq/6xq63WT6u7/nN4gtEux4DYM+NSbmpWefOY9yP8AG4aG+4Q4BQns1cCF5qKHZz0bnzWF+VGzduw4f3vgNea+bjYOL6zVD/SksEX0BYKpRq+ALC0FV17EI1WtOoGoj5dASER0SmJV/e4LBUaNXIBI6A4F312/xAY+JU9erQIjQMeGyHl8dfqYYpIC1sPVWqgZDJFJBs1IEsDNnscWWZ1WNkWVEKUxpkiA1+e4/1dHuDzrKiFKaw1xAbzMDjz0NYdQfzufaiKcz6YnVqxhWFOU2xyUIC/S2CjaqWwjDPWjfq6dVNjbfR7w0fWs1wUi7KZIhYrsnRrFyeiOFvZpMlSKmRL0yGQ+vbXN9KqFlpq54teAMAGttrBLS2wWLcK9V+BUzNF/y9Wsxl2YuL2bc2tY6/WG8lTcktikCv9wB4u95qCeoRtHnjNX0bXmXO9wvnqqEXZK/qycO7vUMmga624mlBXuJK1ZOYobcl6DuO82KpmeqFuovE6dYxJP/3H4BZweCBEAAA",
+                                "name": "FlashBoyPlusLogoBackground"
                             }
                         }
                     ]
@@ -46,12 +46,20 @@
                 },
                 "displayMode": "Mono",
                 "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
                 "manipulationFunction": "",
                 "name": "FlashBoyPlusLogoBackground",
+                "optimizeTiles": true,
                 "section": "rom",
+                "sourceType": "image",
                 "texture": {
                     "files": [
-                        "assets/Entity/FlashBoyPlusLogo/FlashBoyPlusLogoBackground.png"
+                        "FlashBoyPlusLogoBackground.png"
                     ],
                     "files2": [],
                     "flip": {
@@ -78,17 +86,24 @@
             },
             {
                 "_imageData": {
-                    "dupeIndex": 1,
                     "images": [
                         {
+                            "animation": {
+                                "frames": 1
+                            },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAAE+2VO3LDMAxE7+I6hb8CUAIEeIlM7n+NOH70hJxRihSeNHGzY5HQvgUh6f1wvP8Ob3fZhpyQM3JBrsjtIaNglW1DBNHlLkMM8aUukLbszAWplrX+EGFNwBXW5DLfWqAWqAVAAVAAFNuJIgAKZAKZgCSwCBBKgQKhQCgQirvirrgr7oq74q74KX6Kn+aMpNgqtsZFw9awtS/by7Nno86AMCAMCAPCgDAgDAgDwoAwIAx363OB4+BAOBBOdsfWbz+TOSwOi+uyNhxAcpAcJAfJQXKQ4jjvDJACpAApQAqQAvfAPXAPbAPbGDfDNrANbKPvjE0bctpbO89jM6RB1q5zexqAbVt2wtl0rwDq5ktBfLufn/+ea20hw6jlDvW//F4aE9LodXIxmYk8zzuT48/xnqAuOf7kVJJzT849915WL5RkpJLpScYmGZQcuMuDUENIW6QtYhYxa7yM9x6S10vR1pL5eSi6W3S3lq9Tkb3IXmQvshflnZ39bxJ1mtyXD1+n151ed0J3QnddLhK6+3KR0L3t2358AvD8dcc1CAAA",
+                                    "data": "H4sIAAAAAAAAE+2VMW7DMAxF75K5g0mKIjkmTXqJove/RhE8pZUAdegQdOn0YYv0f5+S7ffTcRzH6eUugihiSEMc6cixk0ASqeUpQ87IZel7Ra5L5W1BepvXhD5hTcCVsdbmRwvUArUAKAAKgHLeRBEABTKBTEASWJRKBUKBUCAUCMVdcVfcFXfFXXFX/BQ/xU9vM5Jia1wZtoatYWt3W/ua2agEwoAwIAwIA8KAMCAMCAPCgDDc2zE3NIwaEA2IRvaGbes/kzVYGiytlrXhAFIDqYHUQGogOQ0uc6WD5CA5SA6Sg+S4O+6Ou2Pr2Pp4GLaOrWPbd29AB6Lrbs2WYzNuQtZ9Hk8HsMdSCWevXQPU/bI0vH676+PqsXZdyDDqtw31v/xeOickuAr2KDgTYXNlsP0xvhOjj+0PdiXY92DfY/exeqIERyo4PcGxCQ5KgJtLQ5I2SZukTWImMXN8jHcvyfMlGWvm/D4k002mm8vfKcmeZE+yJ9mLkiJ0/U2iYsi1/PiKWRezLkIXoauWm4Suy3KT0HXd2358AvfphZA1CAAA",
                                     "height": "10",
                                     "width": "30",
                                     "name": "FlashBoyPlusLogoForeground"
                                 }
-                            ]
+                            ],
+                            "tiles": {
+                                "count": 158,
+                                "data": "H4sIAAAAAAAAE61ZS64kOQi8S69ngZwbb4MnuMRo7n+NEQbb2Pl9Uj8p1VTJ5cRBEID73z8Uf3/++QtmfVugKnWY7U8e1qqua/V27THXFlUtT2vtpdPEow9ErMMsSnQ87It8TFKt9zjw6u/x5C9q2reSOX/vw8/wV3Co1gd/kw9m8pMPbG/uUAvs4xO+M8Zi+N6vJV5i/OiDBsBfuENEWEJYHvkw/UU1in7iQzHXn/yV9IoXPji5+reFiGxfrkQS0WQiSPBMSLn6K0D2rClSUrYYvmGav6WZABQApg+49awyQNrWGko1OBkABz2R00kwMytMiWAl00/cw8JxYiI67OPEoazu/EwfFnTqQEdZVLn629heuL64ucUOSZKKCVS1vPEFKCrimNmeFsbBasg8Mc9XINKpv4JYC3Qes6RjHh4LrLG4Z4mgiKDtoKhkTzMxzMmHLCvbMcOzY5op3BPf63AXNQ9ajCtre12Y9gRmOCLysvLhhhrtZ2DjpH6hhirGZn5ibJDIgIQrFXEaCdMBaagralGuZewgZc0hvs+hY+SQANzRQcuhnBfTNJnoUlFU7NlMGmZOaSRznE1AJG6mlBYXe+2n4Gm664dDXXvku9IeScQS1M9ETNRokimoIyw4RT6ToC0J+MIzVyPeIu9rgUiRufYiWxr1qq+th9hHzxZYxjSzdsy2GPOUzGOaj/2DpLyoDtpQ5Z+ARFS6BF3oQ4MpFKa5HmcjNlqOGDfSNnTJlSuyrAWgKHozkjEbKgdAALnFLPDlL/gaHOTfHqoYQFmet8AmUTAujJJkJ8vUqN/4wCsfjh6s8EzM75O/hhkQqef+bPjWQyc1FNgx49lVXFPjUFYWhmsqysShK6ILDy7z4nT4YTZ9KKNe2DMOv+dFK7d1Vt5KtB7euZ66lVCYbd/eGI59nXIU5thsfJty6LURSJ6tan/VE0Q3MiWI3xqBshfAJI7D9FO4TuoQPJ7ZnZTgtQhvavRcsJsqt8CKZbQHILco4Gpy0anhLBHPWN5qd0lVOvFhaHWWtr0nwGZe46sqBWgFEDAZxRZjxmi0WvyCvxOHyjIagaJSvfqbPoHYs5AKukbJcyMgmQ97I3BPjUR7zZCMwwtQh+ke+1q2j762KGo0ZaZ3ZSsHsxHQ2eElPqTxN2EmvGAmHTN/dfuZSi2K0PU6Ylxqj9B18yQYBSVzUoMadU4+TddO/hocHShhUTQiHirMimBf17M1ABedec6WayLOyhA8q/cdaUmKqEYdrLLy2qIUKxIf+2r75+u+qAVc+dO+ZYb7y1rigOTVhwTf+9m+zxf4BQ7lFz5EOn32t/wibrb+29oCom9xQ1y5jMm9j32znZF+T2DYjrWjoDQ101HRRzuzrB11SDB+BooOGuk2ydRBu8kmsL7WzJaQ04ebWS/NLfOYdu2hs3+QKNhoGUfr2dI8dKy9Ue+CAjT/1sYRmW2SHeineaubTjZ8pXfmfUIJk+/xzReCpeN7vTaPcuTpcIr8s54ls65m6oLGPPQy6J7uQM6dGDSUNnXmTVMDKJmm3Xa4ph46umKvTeDdvJrGF6XlOQweF72n6zrtPuRLqMbfree6JmK+j3rrJyU1vfCxo5G2HcmbSG750O893dRL0qaLxoRvxHUjQb6DTlPSm5OpbU5Xlbxy8jxfmKCW013bdbf9Sq6FZ3TdR02z6LxbuVC5u7nlhTCuW6xnhUmtmmKmf7QHdYxn164bThGs13Y8iQJmPb6Om7LgfLeyHHPrwSMv0uxUx9RBlM0rgfaa3xecTpEiT6t5Pmb6r4wNknPlvZ98rmf/PovIoOe1v4kaW8k/41DSdX9hmxPmZuW8b43K8OpvvgdngGUuKDfCf7wL/3//A0aIHSwpGwAA",
+                                "name": "FlashBoyPlusLogoForeground"
+                            }
                         }
                     ]
                 },
@@ -103,12 +118,20 @@
                 },
                 "displayMode": "Mono",
                 "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
                 "manipulationFunction": "",
                 "name": "FlashBoyPlusLogoForeground",
+                "optimizeTiles": true,
                 "section": "rom",
+                "sourceType": "image",
                 "texture": {
                     "files": [
-                        "assets/Entity/FlashBoyPlusLogo/FlashBoyPlusLogoForeground.png"
+                        "FlashBoyPlusLogoForeground.png"
                     ],
                     "files2": [],
                     "flip": {
@@ -162,8 +185,6 @@
         "rotationAxes": []
     },
     "sprites": {
-        "optimizedTiles": true,
-        "sharedTiles": true,
         "type": "Bgmap",
         "useZDisplacementInProjection": false
     }

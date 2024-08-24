@@ -14,12 +14,14 @@
         "sprites": [
             {
                 "_imageData": {
-                    "dupeIndex": 1,
                     "images": [
                         {
+                            "animation": {
+                                "frames": 1
+                            },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAAE72UO3LDMAxE7+I6hfCznNK25Etkcv9rRNYDZSKRJy4yabQDEgR3sRQ+DsMwyOHtDgoY4MCwgG5RAEdgBE7AO3AGLsAVmIAZuPXFZHhctIFIiWAmMBMvPMmULAYzGVfWDY5ApkBXoCvQFejKlcyMYC0zixndemY6lD1AoaRaNExrpu6pVet7nQQVmRqFZ+4hUzFAcxFFSqZenqtVXNGkO/+TWqWYdYub2nauulL2WpWyuKvWpK9iMDNb78soyRtNNppstNXGh9olypows6zJfXZ9rtbyBrpraHf2HIIOF8d+9/64Q8mPj5e8RAmn5962RhbjdgnueLuUppifOaCveus0xGmIT8VimPn8mrf6zeJ27Z+r3V6y3/ekefuC2kjAxuBA2C9qhf9Wyn+7q1YYa8JMlm3W5bVeMmMFqcfvNY2ZLMxkawM3EnjsMf4otnyhmz9C0PLoqggzWZjJwkxOnht5yUxE5xMOHkrwUGI6fH4BWNqQZoMGAAA=",
+                                    "data": "H4sIAAAAAAAAE72UTXLCMAxG75I1C/0SWAIJl+j0/tfokKeEuDVTFp2uvnEsy++THH0MIqLD4SGGOBKIDIfBtlUiR2RETsgZuSBX5IZMyIzc98lUnhdtotqsIFPINBpOIrWSQabjQr3KEakQcBVcBVfB1RuRtYJaZz7W6r4nM2n2EAPJrPEwLZHWc2u+r3UBGjYtG87aw6bRAKuPODIi7frardEVK9z5n9wayVw6btdz547bb8VqPnbduu6zOGTuy321KninyE6RnbL6+HQr4pUTMq+c3Oe31269bqC6jvdgLwAMWIL2R+yPB0hxfL5kkSg5ve7tWsimcV3ATm9FgmRx4YC929ugIEFBYmpaDFnM7/XWvrV4vfbP3W4vOR57uvb2DbdZQhuTA+m/uFX+W23+265bZawpM1m3WVfXRhOZi2h7/JHTmcnKTPZ14GYJjz3HH8lEEtz6EZKS5y6LMpOVmazM5OLc4LUiMV1POHkoyUPJafj8AljakGaDBgAA",
                                     "height": "7",
                                     "width": "34",
                                     "name": "HyperFlash32Logo"
@@ -27,10 +29,8 @@
                             ],
                             "tiles": {
                                 "count": 94,
-                                "data": "H4sIAAAAAAAAE5WXS47EIAxE7zLrWVjxprcRki8xmvtfYyB8XIZKyLQU9eu0AwbKn/x8Sft8ff8LzUzKdYtom7/sCcMU+fF8PaDbmqVyZdT8pRXL/Lr6UE3vMa7t+kRMUoZdfKiLcNf1MlDmb3442XCyozpufSh/rj6kPF2qEwcUabgfV8MUvr99FeVP7Y8l4kO+KeVaUBu+WJsSH9QnBix/6upvvlmuJwSdXUc34eUt1U7CI+y7s56bNvnNy2TnFoNBHS8dRduP45n5bJi/y89oe9bPx/GsBoC+D0cZ6yh4XMNdBtmu/HwT6IiyCfQQ89tAB/Ulnw2CVyLO+5DqyXdMdVObqc2DbRBG2CJkoy3WMO1OPmMLJ32DVVBqr7AmjTRhO9mIsNXTrq8HgFsdUCIOKZ8zigT0QC+iPReUiNKlfLqqn7CRRKw+nJMPp3gU7rCuoYXeBq8EZEsilYjr/qaqqQljeh2RBSKoyS9iCjHEhOg+qEuD52pMg+A6rQGXwSi3ZOIogqEzPpijOmImuKlDXud1JPPYgcD2dR9iB/K6zuMUOFv1It7dLhPSFayYT9HEpZPOKIJg7vaM1W55KsI66YH7YIB8xTU19dxnwn1Y3bGOmNrg3IQ0spPkhLkzgjeE6VTnpzoUSh3fX7wLlZfrgfQa96mN5MljVH9EyJOQ5bzBiL1GeWrJcqXXOJrBIUuuxhXzuOBoEa3HfH874DXrpuTzwkpPk2dPXmNvayFB/jYTTh5ct4jWwh8w6ZNgEk26+DbD+zP6jlPfGRyNHctjQxT0MDV7rO3otuHcLOKSFLa9UQz0Tb2AxY9VuPoQYy55LGrb4OVxXCIQkMfmmGLY3vUlzfb3D5UKOG4pEAAA",
-                                "height": "752",
-                                "name": "HyperFlash32Logo",
-                                "width": "8"
+                                "data": "H4sIAAAAAAAAE5WXTa7rMAiF99LxHaAw6dRCYhNXb//beCL+4WATOzdSpK+ta4MNB/z7ofZ8fv6Eqkr2PiKOJSLdYVhC1d4N+lhVsffz82FV4Yq2Pq821KHPGH27n4hCNu1iQ3XCTed7AGf2qqroMLIjOx5tsB9XG4RYpS4ckKjheV4OS/j+di/sR+5/k8QGFSJ7F+SGL3zjxAb2hQHtR87Ogu3dIcTZfXQT3tamsSN4hH131nPjFn6zm9m5xWRgxzuO4tivY/kSlYaFyD7GsaU+X8dSBwD6Plw212V43dPdA0op9vFNoiOeEj3k/DHRIfrEV4PkpYjzPkg9+Y5SN7UN1XmyA8IMRwQ1OmJN027kHls68RusAcX6CqtoyITtZCPCVk+7vh4AbnVAijhCucxIFNAT3YK2LEgRqYdy8ajeYSOKWG0okw2FPAtPWH1oqXfAW4B0EVKKuO6v1JiaMMrryCwIgip+ESXkUBaIbgN7aORajTIIpqc1QL2+5QvHINgXFECOZbwrwVONHXWeh5jHDgS2D4QfOpDXdR6XwNWqFfHbo5sgV+BxvkQLLt7Vbhq1ewTMX2r3tgjzFA+5DQqYe1ylqWufUm7Dao52RGmDc6OkkZ1CjjJzRvI+FUDWpQ6FUpfvL34LlTePh6TXeJa2RCevUf0RQSdB5bzBiL2G/WtROes1rjbgWrUaPc7zIkeNOHK+3w7ymvVQ8vPC+nRvSdQzr7GPtTDB/DYTTh5M14ja0h9QeBcwkoou3mby/iy949Q7g+PSPxwbohAPknR4ebMXz00jLqJw7I1ioh/qBTg/vPDoQ4xasi1qx+TN89gykE65OZYYY5/6kjb233+VCjhuKRAAAA==",
+                                "name": "HyperFlash32Logo"
                             }
                         }
                     ]
@@ -46,12 +46,20 @@
                 },
                 "displayMode": "Mono",
                 "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
                 "manipulationFunction": "",
                 "name": "HyperFlash32Logo",
+                "optimizeTiles": true,
                 "section": "rom",
+                "sourceType": "image",
                 "texture": {
                     "files": [
-                        "assets/Entity/HyperFlash32Logo/HyperFlash32Logo.png"
+                        "HyperFlash32Logo.png"
                     ],
                     "files2": [],
                     "flip": {
@@ -105,8 +113,6 @@
         "rotationAxes": []
     },
     "sprites": {
-        "optimizedTiles": true,
-        "sharedTiles": true,
         "type": "Bgmap",
         "useZDisplacementInProjection": false
     }

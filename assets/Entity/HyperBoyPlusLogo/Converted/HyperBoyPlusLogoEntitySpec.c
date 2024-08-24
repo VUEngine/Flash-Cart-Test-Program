@@ -145,6 +145,6 @@ EntityROMSpec HyperBoyPlusLogoEntitySpec =
 			// gameworld's character's type
 			kTypeNone,
 
-			// physical specification
-			(PhysicalProperties*)NULL,
+			// physical specification 
+			NULL,
 };

@@ -16,65 +16,73 @@
                 "_imageData": {
                     "images": [
                         {
-                            "tiles": {
-                                "count": 52,
-                                "data": "H4sIAAAAAAAAE5WVW47DIAxF99Lv+bDkFURI3kQ1+9/G4BiHazB1JxLVUUOun5j3i8bz+vkXskjTdUTYK41I1xHRRP9cl6J0lBtVkzbdHFu+ARSmLloDf/s+sb2APDHudTEZj8cmq25E6YtvZMXdh0dsIgGWeynzQfRPsxaR5FsfKPPhzmT/sURBSvTFpmuWj/hNbJkPlkl+3JltlNVYeK9bmjPVjCY8DzPiz4cBsDwMgKM728ykud7umB5s3vbtqTGikOuyLnedZUYxkCPycgpLRGsVBsMFgutmy5oWMbSGu27GZJaQN/QaX9dFuo6IJazmA1Yz7V+YD3l2oJpY2FSMZysTdHXlA40BsZQ75Iz2RGG5c93FxOdymxNLufOchYj9BEDERxMe0DEP6HpyM6RXUtk7+jLtqPvZkAZG3WTv0L1iFG1ccBEPKeGIEJtheRggtvyWjqfFJ1c9S8KATqYc4PFC4Yihf3//AKYK4c7xCAAA",
-                                "height": "416",
-                                "width": "8",
-                                "name": "HyperBoyPlusLogo"
+                            "animation": {
+                                "frames": 1
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAAE72USw7CMAxE78KaRcYutF0WSi+BuP81CH1NPyItIBCrJysee+JEvu5CCNrtH7AIAzFyUIADOIISVKAGDTiBM2jBBXQ9FPpGPWJEd221DRmITBUUQyAEwqfKjcxqUYw7qCGlAkNUTwJLurlgpe27rm30yeh0/ovrlbapdLuIeD91cy/GmSmTabymcQcbBIe5CWNYVk6uY4RPq9dnnW1rwxlXsY0JJp/LQXruqXKzNuZilw9/SLZmMt+9/Ndfuh5MePih6zmcHSKWh487hBTXU+ZSLnaIs0PEDvG0NZxi7px1PUQxIRfdtdo2g9sd4snYvfsEAAA=",
+                                    "data": "H4sIAAAAAAAAE72US26DQBBE78Lai65qO8DSPy4R5f7XsMxjbJAHnChRVk9ourpqelB/NhGhZneHm11jEBEJ9uAAPkALOtCDIziBM7iAKxhGKEajERHCXVu2UYGo1J5mCIRA5FS7UdktmnEHHSnpwPTVPwUuurlgxfa7qf3Iyeh0/pfUK7al9WXxxftpmGcxZ1al0rymuYMnwWEewgzL7TN1hMnpfn3WVVtPZ1zFGxMsOZeDzNpT1WZt5uLrD/+Qas8Sfnj7X/8y9RQi4w9Tz5HsELE88rFDKEm9VC7lYockO0TskCxbI2mWydkwQjQTcuGuVdsKvm7iydi9+wQAAA==",
                                     "height": "7",
                                     "width": "26",
                                     "name": "HyperBoyPlusLogo"
                                 }
-                            ]
+                            ],
+                            "tiles": {
+                                "count": 52,
+                                "data": "H4sIAAAAAAAAE5WVW4oEMQhF99Lf/SG4giLgJobZ/zYaS02uFTP2FAQO3cHXVfPzIv9e738hiww9R4S7Moj0HBFdsIgeRRHR43Zps1vjqC+AhWUXvUG8IkPsLiAvzHfDmPgXucnTbkYhIr6RFfcYprGFBNjepSoG0R/NW0aSb2OgKoa7ksQuFpRE/9jsmucjfpNbFYNVkmc4q40qjYV33cqaqc3sIuqwMv57GADbYQD07hyrkhb6uHOaOKLtx9QYUeYUsp4InWVl4cgZ+TGFLaK3DpPjBiF082VNi5haI0I3Z7Ik5A1D4+u6SM8RUcJuP6CaZf/CfqirA2qisKUxXq1M0NVdDOQL4iF3qhnthaJ64XU76qSxBfGQu65ZyjgmADI+uoiE+l1Svwzlk9T2jv5ZdtT9bUiO2W5x1+1eOYvhD1zGQ0k4I+Rm2A4D5Fa/0nlaYnP1uyQt6GLLAR4fFM6Y+vf3A6YK4c7xCAAA",
+                                "name": "HyperBoyPlusLogo"
+                            }
                         }
-                    ],
-                    "dupeIndex": 1
+                    ]
                 },
-                "name": "HyperBoyPlusLogo",
                 "bgmapMode": "Bgmap",
                 "colorMode": 0,
-                "displayMode": "Mono",
-                "displays": "ON",
-                "transparency": "None",
+                "compression": "none",
                 "displacement": {
+                    "parallax": -1,
                     "x": 0,
                     "y": 0,
-                    "z": 0,
-                    "parallax": -1
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
                 },
                 "manipulationFunction": "",
+                "name": "HyperBoyPlusLogo",
+                "optimizeTiles": true,
+                "section": "rom",
+                "sourceType": "image",
                 "texture": {
                     "files": [
-                        "assets/Entity/HyperBoyPlusLogo/HyperBoyPlusLogo.png"
+                        "HyperBoyPlusLogo.png"
                     ],
                     "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
                     "padding": {
                         "x": 0,
                         "y": 0
                     },
                     "palette": 0,
                     "recycleable": false,
-                    "flip": {
-                        "x": false,
-                        "y": false
-                    },
                     "repeat": {
                         "mode": "1x1",
-                        "x": false,
-                        "y": false,
                         "size": {
                             "x": 0,
                             "y": 0
-                        }
+                        },
+                        "x": false,
+                        "y": false
                     }
                 },
-                "section": "rom",
-                "compression": "none"
+                "transparency": "None"
             }
         ],
         "wireframes": []
@@ -105,8 +113,6 @@
         "rotationAxes": []
     },
     "sprites": {
-        "optimizedTiles": true,
-        "sharedTiles": true,
         "type": "Bgmap",
         "useZDisplacementInProjection": false
     }

@@ -16,65 +16,73 @@
                 "_imageData": {
                     "images": [
                         {
-                            "tiles": {
-                                "count": 4,
-                                "data": "H4sIAAAAAAAAE2WNywnAMAxDd/G5t04gh2iJ0v3XqJQ/FCN4sRXpCbAmyRJXQ8uYmNh3oJBA3jJ7K7Saoc8wDNRxf1ODZKxcqFI/Z8Iv7KhwqbPj/QAOhExisQAAAA==",
-                                "height": "40",
-                                "width": "8",
-                                "name": "AdjustmentIconL"
+                            "animation": {
+                                "frames": 1
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAAE4tWMgACJR0QZQihjCCUsVIsACikrCUdAAAA",
+                                    "data": "H4sIAAAAAAAAE4tWMjAwMFDSAVGGEMoIQhkrxQIAKKSsJR0AAAA=",
                                     "height": "2",
                                     "width": "2",
                                     "name": "AdjustmentIcon"
                                 }
-                            ]
+                            ],
+                            "tiles": {
+                                "count": 4,
+                                "data": "H4sIAAAAAAAAE2WNywnAMAxDd/E5t04gB78lSvdfoyifEihG8Gxk6Q5RCfRoAy1jauO8iWiBlBcYS0prGOYsw8LS8ZZYxuJD6F53wi/sqHCps+N5AQ6ETGKxAAAA",
+                                "name": "AdjustmentIcon"
+                            }
                         }
-                    ],
-                    "dupeIndex": 1
+                    ]
                 },
-                "name": "AdjustmentIcon",
                 "bgmapMode": "Bgmap",
                 "colorMode": 0,
-                "displayMode": "Mono",
-                "displays": "LON",
-                "transparency": "None",
+                "compression": "none",
                 "displacement": {
+                    "parallax": 0,
                     "x": 0,
                     "y": 0,
-                    "z": 0,
-                    "parallax": 0
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "LON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
                 },
                 "manipulationFunction": "",
+                "name": "AdjustmentIcon",
+                "optimizeTiles": true,
+                "section": "rom",
+                "sourceType": "image",
                 "texture": {
                     "files": [
-                        "assets/Entity/AdjustmentIcon/AdjustmentIcon.png"
+                        "AdjustmentIcon.png"
                     ],
                     "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
                     "padding": {
                         "x": 0,
                         "y": 0
                     },
                     "palette": 0,
                     "recycleable": false,
-                    "flip": {
-                        "x": false,
-                        "y": false
-                    },
                     "repeat": {
                         "mode": "1x1",
-                        "x": false,
-                        "y": false,
                         "size": {
                             "x": 0,
                             "y": 0
-                        }
+                        },
+                        "x": false,
+                        "y": false
                     }
                 },
-                "section": "rom",
-                "compression": "none"
+                "transparency": "None"
             }
         ],
         "wireframes": []
@@ -105,8 +113,6 @@
         "rotationAxes": []
     },
     "sprites": {
-        "optimizedTiles": true,
-        "sharedTiles": true,
         "type": "Bgmap",
         "useZDisplacementInProjection": false
     }

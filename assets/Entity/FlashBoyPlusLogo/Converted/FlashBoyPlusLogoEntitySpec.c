@@ -15,8 +15,9 @@
 //                                              DECLARATIONS                                               
 //---------------------------------------------------------------------------------------------------------
 
-extern uint32 FlashBoyPlusLogoEntityFlashBoyPlusLogoTiles[];
+extern uint32 FlashBoyPlusLogoEntityFlashBoyPlusLogoBackgroundTiles[];
 extern uint16 FlashBoyPlusLogoEntityFlashBoyPlusLogoBackgroundMap[];
+extern uint32 FlashBoyPlusLogoEntityFlashBoyPlusLogoForegroundTiles[];
 extern uint16 FlashBoyPlusLogoEntityFlashBoyPlusLogoForegroundMap[];
 
 
@@ -28,7 +29,7 @@ extern uint16 FlashBoyPlusLogoEntityFlashBoyPlusLogoForegroundMap[];
 CharSetROMSpec FlashBoyPlusLogoSprite1CharsetSpec =
 {
 	// number of chars in function or the number of frames to load at the same time
-	253,
+	96,
 
 	// whether it is shared or not
 	true,
@@ -37,7 +38,7 @@ CharSetROMSpec FlashBoyPlusLogoSprite1CharsetSpec =
 	true,
 
 	// char spec
-	FlashBoyPlusLogoEntityFlashBoyPlusLogoTiles,
+	FlashBoyPlusLogoEntityFlashBoyPlusLogoBackgroundTiles,
 
 	// pointer to the frames offsets
 	NULL,
@@ -103,10 +104,29 @@ BgmapSpriteROMSpec FlashBoyPlusLogoSprite1SpriteSpec =
 	__WORLD_ON,
 };
 
+
+CharSetROMSpec FlashBoyPlusLogoSprite2CharsetSpec =
+{
+	// number of chars in function or the number of frames to load at the same time
+	158,
+
+	// whether it is shared or not
+	true,
+
+	// whether the tiles are optimized or not
+	true,
+
+	// char spec
+	FlashBoyPlusLogoEntityFlashBoyPlusLogoForegroundTiles,
+
+	// pointer to the frames offsets
+	NULL,
+};
+
 TextureROMSpec FlashBoyPlusLogoSprite2TextureSpec =
 {
 	// charset spec
-	(CharSetSpec*)&FlashBoyPlusLogoSprite1CharsetSpec,
+	(CharSetSpec*)&FlashBoyPlusLogoSprite2CharsetSpec,
 
 	// bgmap spec
 	FlashBoyPlusLogoEntityFlashBoyPlusLogoForegroundMap,
@@ -207,6 +227,6 @@ EntityROMSpec FlashBoyPlusLogoEntitySpec =
 			// gameworld's character's type
 			kTypeNone,
 
-			// physical specification
-			(PhysicalProperties*)NULL,
+			// physical specification 
+			NULL,
 };
